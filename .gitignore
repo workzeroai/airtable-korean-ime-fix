@@ -1,0 +1,21 @@
+# ---- 비밀값 (절대 커밋 금지) ----
+.env
+.env.*
+*.pem
+*.key
+
+# ---- 배포 산출물(Release에 첨부, 저장소에는 넣지 않음) ----
+dist/
+*.zip
+*.exe
+
+# ---- 실행 산출물 ----
+*.log
+.cache/
+
+# ---- 에디터·OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

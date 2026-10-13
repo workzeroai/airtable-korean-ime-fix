@@ -1,0 +1,6 @@
+* text=auto eol=lf
+# AutoHotkey 스크립트는 Windows에서 메모장으로 열기 쉽게 CRLF로 둔다
+*.ahk text eol=crlf
+*.png binary
+*.gif binary
+*.jpg binary

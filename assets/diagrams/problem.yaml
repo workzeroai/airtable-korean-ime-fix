@@ -1,0 +1,19 @@
+# 문제 상황: 셀 선택 상태에서 한글을 바로 치면 첫 자모가 영문으로 샌다
+# 생성: python ../../../_design/excalidraw_kit.py problem.yaml --out . --export
+name: problem
+title: 문제 — 첫 글자가 영문으로 새는 흐름
+subtitle: 셀을 선택만 한 상태에서 한글 '한글'(키 G K S R M F)을 바로 입력할 때 (예시)
+layout: horizontal
+gapX: 90
+maxTextWidth: 200
+nodes:
+  - {id: select, label: "셀 클릭\n(선택 상태)", role: info}
+  - {id: firstkey, label: "첫 키 입력\nㅎ (G 키)", role: primary}
+  - {id: open, label: "앱이 그 키로\n편집 칸을 엶", role: neutral}
+  - {id: leak, label: "첫 키는 한글 조합 없이\n영문 g로 들어감", role: danger}
+  - {id: result, label: "결과 gㅏㄴ글\n(의도: 한글)", role: danger, shape: ellipse}
+edges:
+  - {from: select, to: firstkey}
+  - {from: firstkey, to: open}
+  - {from: open, to: leak, label: 조합 누락, role: danger}
+  - {from: leak, to: result}

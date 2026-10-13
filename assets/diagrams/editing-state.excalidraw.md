@@ -1,0 +1,453 @@
+---
+excalidraw-plugin: parsed
+tags: [excalidraw]
+---
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
+# Drawing
+```json
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.0",
+  "elements": [
+    {
+      "id": "node-selected",
+      "type": "ellipse",
+      "x": 0,
+      "y": 210.7,
+      "width": 280,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#0369a1",
+      "backgroundColor": "#e0f2fe",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 226034795,
+      "version": 1,
+      "versionNonce": 516243554,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "text-selected"
+        },
+        {
+          "type": "arrow",
+          "id": "edge-selected-editing-0"
+        },
+        {
+          "type": "arrow",
+          "id": "edge-editing-selected-1"
+        }
+      ],
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "node-editing",
+      "type": "ellipse",
+      "x": 580,
+      "y": 210.7,
+      "width": 260,
+      "height": 120,
+      "angle": 0,
+      "strokeColor": "#0f766e",
+      "backgroundColor": "#ccfbf1",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1251351114,
+      "version": 1,
+      "versionNonce": 1441452526,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "text-editing"
+        },
+        {
+          "type": "arrow",
+          "id": "edge-selected-editing-0"
+        },
+        {
+          "type": "arrow",
+          "id": "edge-editing-selected-1"
+        }
+      ],
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "edge-selected-editing-0",
+      "type": "arrow",
+      "x": 245.01,
+      "y": 224.5,
+      "width": 363.58,
+      "height": 80.78,
+      "angle": 0,
+      "strokeColor": "#334155",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "grp-edge-selected-editing-0"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 222529700,
+      "version": 1,
+      "versionNonce": 994049501,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          179.99,
+          -79.2
+        ],
+        [
+          363.58,
+          1.58
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "node-selected",
+        "focus": 0,
+        "gap": 8
+      },
+      "endBinding": {
+        "elementId": "node-editing",
+        "focus": 0,
+        "gap": 8
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "label-edge-selected-editing-0",
+      "type": "text",
+      "x": 356.62,
+      "y": 97.0,
+      "width": 137.0,
+      "height": 40.0,
+      "angle": 0,
+      "strokeColor": "#334155",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "grp-edge-selected-editing-0"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1111070335,
+      "version": 1,
+      "versionNonce": 1676740134,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false,
+      "text": "F2 · Enter · 더블클릭\n글자 입력(F2 자동)",
+      "fontSize": 16,
+      "fontFamily": 2,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 33.12,
+      "containerId": null,
+      "originalText": "F2 · Enter · 더블클릭\n글자 입력(F2 자동)",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "edge-editing-selected-1",
+      "type": "arrow",
+      "x": 608.58,
+      "y": 315.32,
+      "width": 363.58,
+      "height": 80.78,
+      "angle": 0,
+      "strokeColor": "#334155",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "grp-edge-editing-selected-1"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1577243598,
+      "version": 1,
+      "versionNonce": 1288542159,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -183.58,
+          80.78
+        ],
+        [
+          -363.58,
+          1.58
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "node-editing",
+        "focus": 0,
+        "gap": 8
+      },
+      "endBinding": {
+        "elementId": "node-selected",
+        "focus": 0,
+        "gap": 8
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "label-edge-editing-selected-1",
+      "type": "text",
+      "x": 365.62,
+      "y": 404.36,
+      "width": 119.0,
+      "height": 40.0,
+      "angle": 0,
+      "strokeColor": "#334155",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "grp-edge-editing-selected-1"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1500358923,
+      "version": 1,
+      "versionNonce": 36127096,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false,
+      "text": "Esc · Tab · Enter\n클릭 · 창·탭 전환",
+      "fontSize": 16,
+      "fontFamily": 2,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 33.12,
+      "containerId": null,
+      "originalText": "Esc · Tab · Enter\n클릭 · 창·탭 전환",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "text-selected",
+      "type": "text",
+      "x": 69.0,
+      "y": 245.7,
+      "width": 142.0,
+      "height": 50.0,
+      "angle": 0,
+      "strokeColor": "#0f172a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1899001291,
+      "version": 1,
+      "versionNonce": 845781280,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false,
+      "text": "셀 선택 상태\n(글자 키를 가로챔)",
+      "fontSize": 20,
+      "fontFamily": 2,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 41.4,
+      "containerId": "node-selected",
+      "originalText": "셀 선택 상태\n(글자 키를 가로챔)",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "text-editing",
+      "type": "text",
+      "x": 647.5,
+      "y": 245.7,
+      "width": 125.0,
+      "height": 50.0,
+      "angle": 0,
+      "strokeColor": "#0f172a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1213704703,
+      "version": 1,
+      "versionNonce": 1357387972,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false,
+      "text": "편집 중\n(아무것도 안 함)",
+      "fontSize": 20,
+      "fontFamily": 2,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 41.4,
+      "containerId": "node-editing",
+      "originalText": "편집 중\n(아무것도 안 함)",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "x": 0,
+      "y": 0.0,
+      "width": 213.0,
+      "height": 35.0,
+      "angle": 0,
+      "strokeColor": "#0f172a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 159451258,
+      "version": 1,
+      "versionNonce": 1971650405,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false,
+      "text": "편집 상태 추정 규칙",
+      "fontSize": 28,
+      "fontFamily": 2,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 22.96,
+      "containerId": null,
+      "originalText": "편집 상태 추정 규칙",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "subtitle",
+      "type": "text",
+      "x": 0,
+      "y": 41.0,
+      "width": 414.0,
+      "height": 20.0,
+      "angle": 0,
+      "strokeColor": "#64748b",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1919961959,
+      "version": 1,
+      "versionNonce": 869340623,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760000000000,
+      "link": null,
+      "locked": false,
+      "text": "스크립트는 화면을 읽지 않고, 누른 키와 클릭으로 상태를 추정한다",
+      "fontSize": 16,
+      "fontFamily": 2,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 13.12,
+      "containerId": null,
+      "originalText": "스크립트는 화면을 읽지 않고, 누른 키와 클릭으로 상태를 추정한다",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
+```
+%%
+# Text Elements
+F2 · Enter · 더블클릭
+글자 입력(F2 자동) ^label-edge-selected-editing-0
+Esc · Tab · Enter
+클릭 · 창·탭 전환 ^label-edge-editing-selected-1
+셀 선택 상태
+(글자 키를 가로챔) ^text-selected
+편집 중
+(아무것도 안 함) ^text-editing
+편집 상태 추정 규칙 ^title
+스크립트는 화면을 읽지 않고, 누른 키와 클릭으로 상태를 추정한다 ^subtitle
+%%

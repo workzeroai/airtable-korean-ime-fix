@@ -1,0 +1,30 @@
+# 해결 흐름: 글자 키 감지 → 단축키·대상 창·편집 상태·한글 상태 판단 → F2 선행 → 원래 키 전달
+# 생성: python ../../../_design/excalidraw_kit.py solution.yaml --out . --export
+name: solution
+title: 해결 — 편집 칸을 먼저 열고 원래 키를 보낸다
+subtitle: 글자 키(A~Z)가 눌렸을 때의 판단 순서 · 초록 계열 상자가 스크립트가 개입하는 단계
+layout: grid
+gapX: 110
+gapY: 70
+maxTextWidth: 190
+nodes:
+  - {id: key, label: "글자 키 입력\n(A~Z, Shift 포함)", role: info, col: 0, row: 0}
+  - {id: mod, label: "Ctrl·Alt·Win\n함께 눌림?", role: warning, shape: diamond, col: 1, row: 0}
+  - {id: cond, label: "에어테이블 창 +\n편집 중 아님?", role: warning, shape: diamond, col: 2, row: 0}
+  - {id: hangul, label: "한글 입력\n상태?", role: warning, shape: diamond, col: 3, row: 0}
+  - {id: shortcut, label: "단축키 그대로 통과", role: neutral, shape: ellipse, col: 1, row: 1}
+  - {id: pass, label: "개입 안 함\n원래 입력 그대로", role: neutral, shape: ellipse, col: 2, row: 1}
+  - {id: english, label: "영문 상태\n그대로 입력", role: neutral, shape: ellipse, col: 3, row: -1}
+  - {id: f2, label: "F2 먼저 보냄\n(편집 칸 열기)", role: secondary, col: 3, row: 1}
+  - {id: send, label: "원래 키 전달\n→ 한글 조합 시작", role: success, col: 3, row: 2}
+  - {id: mark, label: "편집 중으로 기록\n다음 키는 통과", role: secondary, col: 2, row: 2}
+edges:
+  - {from: key, to: mod}
+  - {from: mod, to: shortcut, label: 예}
+  - {from: mod, to: cond, label: 아니오}
+  - {from: cond, to: pass, label: 아니오}
+  - {from: cond, to: hangul, label: 예}
+  - {from: hangul, to: english, label: 아니오}
+  - {from: hangul, to: f2, label: 예, role: success}
+  - {from: f2, to: send, label: 40ms 대기}
+  - {from: send, to: mark}
