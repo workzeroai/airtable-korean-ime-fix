@@ -129,6 +129,8 @@ airtable-korean-ime-fix/
 
 *Status:* syntax-checked with AutoHotkey 2.0.22 (`/Validate`) and start-up tested; **not yet verified inside Airtable** — see the checklist above. Requires AutoHotkey v2 from [autohotkey.com](https://www.autohotkey.com/) (not bundled). Not affiliated with Airtable.
 
+**만든 사람 · Author** — 전병국 · [workzeroai@gmail.com](mailto:workzeroai@gmail.com) · [GitHub](https://github.com/workzeroai) · [포트폴리오](https://workzero.notion.site/AX-_-3d312e3c61c981958e60f69a8f6d546e)
+
 ---
 
 Airtable은 Airtable의 상표이며, 이 프로젝트는 Airtable과 관련이 없는 개인 도구입니다.
